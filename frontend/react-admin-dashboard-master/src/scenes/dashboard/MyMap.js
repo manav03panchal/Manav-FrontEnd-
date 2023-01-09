@@ -30,7 +30,7 @@ const markers = [
 function MyMap() {
   const { isLoaded } = useJsApiLoader({
     id: "google-map-script",
-    googleMapsApiKey: "AIzaSyD7ltKHOtApQ3NpmEi_iHVda7pkpQZLQIs",
+    googleMapsApiKey: "INSERT API KEY HERE",
   });
 
   const [map, setMap] = useState(null);
